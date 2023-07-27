@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>Welcome Page</title>
+    <style>
+        /* Set the styles for the parent container */
+        body {
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            height: 100vh; /* Set the height of the container to fill the viewport */
+            margin: 0; /* Remove default body margin for consistent centering */
+        }
+
+        /* Set additional styles for the h1 element */
+        h1 {
+            text-align: center; /* Center horizontally within the flex container */
+            font-size: 36px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome, {{.Name}}!</h1>
+</body>
+</html>
