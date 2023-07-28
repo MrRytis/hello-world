@@ -10,6 +10,7 @@ func NewRouter() *mux.Router {
 
 	r.HandleFunc("/", handler.Index).Methods("GET")
 	r.HandleFunc("/api/hello", handler.HelloWorld).Methods("GET")
+	r.HandleFunc("/api/date-time", handler.DateTime).Methods("GET")
 
 	return r
 }
