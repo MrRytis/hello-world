@@ -7,7 +7,7 @@ import (
 )
 
 type DateTimeResponse struct {
-	DateTime string `json:"datetime"`
+	DateTime string `json:"dateTime"`
 }
 
 func DateTime(w http.ResponseWriter, r *http.Request) {
