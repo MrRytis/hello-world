@@ -5,4 +5,4 @@ services:
       dockerfile: docker/go/dockerfile
       context: .
     volumes:
-      - .:/opt/app
+      - .:/app
